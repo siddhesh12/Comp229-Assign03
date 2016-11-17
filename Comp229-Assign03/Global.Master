@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Global.master.cs" Inherits="Comp229_Assign03.Global1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="content/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<div class="jumbotron">
+  <h1>T.I.T </h1><p>Toronto Institute of Technology<br/>Toronto, ON, M1J 2N2</p>
+</div>
+    <div>
+        <nav class="navbar navbar-default">
+      <td class="active"><a href="#">Home</a></td>
+      <tr><a href="#">Info</a></tr>
+      <tr><a href="#">Contact</a></tr>
+    </nav>   
+    </div>
+ 
+    <div class="container">
+        <asp:contentplaceholder id="contentplaceholder1" runat="server">
+
+        </asp:contentplaceholder>
+    </div>
+</body>
+</html>

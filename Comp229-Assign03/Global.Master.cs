@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Comp229_Assign03
 {
-    public partial class About : Page
+    public partial class Global1 : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
