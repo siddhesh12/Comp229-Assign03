@@ -3,6 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <form id="form1" runat="server">
+        <img src="cinqueterre.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236">
     <asp:DataList ID="studentsList" runat="server" >
         <ItemTemplate>
         Student ID:<strong><%#Eval("StudentID") %></strong><br /><asp:Literal ID="extraDetailsLiteral" runat ="server" EnableViewState="false" />
