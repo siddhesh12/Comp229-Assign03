@@ -11,6 +11,7 @@ namespace Comp229_Assign03
 {
     public partial class home : System.Web.UI.Page
     {
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if(!IsPostBack)
@@ -19,6 +20,10 @@ namespace Comp229_Assign03
             }
         }
 
+        protected void addButtonClicked(object sender, EventArgs e)
+        {
+
+        }
         protected void bindList()
         {
             SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["Comp229Assign03ConnectionString"].ToString());
@@ -29,8 +34,8 @@ namespace Comp229_Assign03
             {
                 connection.Open();
                 SqlDataReader reader = comm.ExecuteReader();
-                studentsList.DataSource = reader;
-                studentsList.DataBind();
+                GridView1.DataSource = reader;
+                GridView1.DataBind();
                 reader.Close();
             }
             finally

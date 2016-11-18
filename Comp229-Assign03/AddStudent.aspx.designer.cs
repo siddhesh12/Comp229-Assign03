@@ -10,7 +10,7 @@
 namespace Comp229_Assign03 {
     
     
-    public partial class home {
+    public partial class AddStudent {
         
         /// <summary>
         /// form1 control.
@@ -22,21 +22,30 @@ namespace Comp229_Assign03 {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// s control.
+        /// textName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton s;
+        protected global::System.Web.UI.WebControls.TextBox textName;
         
         /// <summary>
-        /// GridView1 control.
+        /// textLastName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView1;
+        protected global::System.Web.UI.WebControls.TextBox textLastName;
+        
+        /// <summary>
+        /// textEnrolmentText control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox textEnrolmentText;
     }
 }

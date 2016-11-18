@@ -113,8 +113,7 @@ input,
 optgroup,
 select,
 textarea {
-  margin: 0;
-  font: inherit;
+  margin: 0 0 26px 0;
   color: inherit;
 }
 button {
@@ -1087,7 +1086,7 @@ body {
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
-}
+    }
 input,
 button,
 select,
@@ -1114,6 +1113,9 @@ figure {
 }
 img {
   vertical-align: middle;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
 }
 .img-responsive,
 .thumbnail > img,
@@ -2250,6 +2252,8 @@ pre code {
 }
 table {
   background-color: transparent;
+    margin-right: 0px;
+    margin-top: 43px;
 }
 caption {
   padding-top: 8px;
@@ -2510,6 +2514,11 @@ label {
   max-width: 100%;
   margin-bottom: 5px;
   font-weight: bold;
+    width: 139px;
+    height: 61px;
+    margin-left: 0px;
+    margin-top: 0px;
+    text-align: center;
 }
 input[type="search"] {
   -webkit-box-sizing: border-box;
@@ -3007,7 +3016,6 @@ select[multiple].input-lg {
   font-size: 14px;
   font-weight: normal;
   line-height: 1.42857143;
-  text-align: center;
   white-space: nowrap;
   vertical-align: middle;
   -ms-touch-action: manipulation;
@@ -3060,6 +3068,7 @@ fieldset[disabled] a.btn {
   color: #333;
   background-color: #fff;
   border-color: #ccc;
+    width: 82px;
 }
 .btn-default:focus,
 .btn-default.focus {
@@ -4498,6 +4507,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     top: -20px;
     left: 0px;
     height: 32px;
+    width: 971px;
 }
 .navbar-default .navbar-brand {
   color: #777;
@@ -4965,6 +4975,7 @@ a.badge:focus {
   color: inherit;
   background-color: #E37638;
     height: 211px;
+    width: 976px;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -4980,7 +4991,7 @@ a.badge:focus {
   font-weight: 200;
   color:white;
     height: 77px;
-    width: 915px;
+    width: 747px;
     font-family:'Times New Roman', Times, serif
 }
 .jumbotron > hr {

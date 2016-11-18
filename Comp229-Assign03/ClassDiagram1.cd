@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Comp229_Assign03.Account.AddPhoneNumber" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAQCAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Account\AddPhoneNumber.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comp229_Assign03.Account.Confirm" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAIIAEAA=</HashCode>
+      <FileName>Account\Confirm.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comp229_Assign03.Account.ForgotPassword" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAAIAAAACCAAAAAAAAAAAAAAAAAAAAAAAAACAIAAAA=</HashCode>
+      <FileName>Account\Forgot.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comp229_Assign03.Account.Lockout" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Account\Lockout.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comp229_Assign03.Account.Login" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAQAAACCAAAAAAAAAAAAQAAAAABACAAAAAAIgAAA=</HashCode>
+      <FileName>Account\Login.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comp229_Assign03.Account.Manage" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAADAgAAgUAAAAAAQABAIAAAAQABAAAAAAIkAAA=</HashCode>
+      <FileName>Account\Manage.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comp229_Assign03.Account.ManageLogins" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAABEAAAAQAAAAABAAAAAAAAAAAAAAAAAAIEAAA=</HashCode>
+      <FileName>Account\ManageLogins.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comp229_Assign03.Account.ManagePassword" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAhAAABAACQAAAAANAAAAAAAAAAAAAABAABAgIkAIA=</HashCode>
+      <FileName>Account\ManagePassword.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comp229_Assign03.Account.OpenAuthProviders" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAACAAAAAAAIAAAIAAAA=</HashCode>
+      <FileName>Account\OpenAuthProviders.ascx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comp229_Assign03.Account.Register" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACAAAAAIAAAAAAAAAAAAAAACAAAAAAAAIAA=</HashCode>
+      <FileName>Account\Register.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comp229_Assign03.Account.RegisterExternalLogin" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAgAIACAAAAACAAAAAAAAAAAAIwAAA=</HashCode>
+      <FileName>Account\RegisterExternalLogin.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comp229_Assign03.Account.ResetPassword" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAACAACAAAAAAAAAAAAAAAAAAAAACAAAAAIAAIAA=</HashCode>
+      <FileName>Account\ResetPassword.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comp229_Assign03.Account.ResetPasswordConfirmation" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Account\ResetPasswordConfirmation.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comp229_Assign03.Account.TwoFactorAuthenticationSignIn" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQIAgAAAIACEAAAIABAgAAAEABAAAAAAAAAAAAIIABA=</HashCode>
+      <FileName>Account\TwoFactorAuthenticationSignIn.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comp229_Assign03.Account.VerifyPhoneNumber" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAgQAAAAAAAAAAAAAABAAIAAAA=</HashCode>
+      <FileName>Account\VerifyPhoneNumber.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comp229_Assign03.BundleConfig" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\BundleConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comp229_Assign03.EmailService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\IdentityConfig.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Comp229_Assign03.SmsService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\IdentityConfig.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Comp229_Assign03.ApplicationUserManager" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\IdentityConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comp229_Assign03.ApplicationSignInManager" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\IdentityConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comp229_Assign03.RouteConfig" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\RouteConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comp229_Assign03.Startup" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAgAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\Startup.Auth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comp229_Assign03.Global" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comp229_Assign03.Global1" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAQIAAAA=</HashCode>
+      <FileName>Global.Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comp229_Assign03.home" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAIQAAA=</HashCode>
+      <FileName>home.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comp229_Assign03.IdentityHelper" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwSAAAAAAAAAAQAABAAgAAAAAAAAIAAgAAACAAAgAAA=</HashCode>
+      <FileName>Models\IdentityModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comp229_Assign03.ViewSwitcher" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEIAAIA=</HashCode>
+      <FileName>ViewSwitcher.ascx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comp229_Assign03.Models.ApplicationUser" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\IdentityModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comp229_Assign03.Models.ApplicationDbContext" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\IdentityModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
