@@ -43,5 +43,35 @@ namespace Comp229_Assign03
                 connection.Close();
             }
         }
+        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // Get the currently selected row using the SelectedRow property.
+            GridViewRow row = GridView1.SelectedRow;
+
+            // Display the first name from the selected row.
+            // In this example, the third column (index 2) contains
+            // the first name.
+            string stdID = row.Cells[1].Text;
+            
+            Response.Redirect("Student.aspx?Name="+stdID);
+        }
+
+
+       /* void CustomersGridView_RowCommand(object sender, GridViewCommandEventArgs e)
+        {
+            if (e.CommandName == "Select")
+            {
+                // property to an Integer.
+                int index = Convert.ToInt32(e.CommandArgument);
+
+                // Get the last name of the selected author from the appropriate
+                // cell in the GridView control.
+                GridViewRow selectedRow = GridView1.Rows[index];
+                TableCell studentID = selectedRow.Cells[0];
+                String stdID = studentID.Text;
+                Response.Redirect("Student.aspx?Name="+stdID);
+            }
+        }
+        */
     }
 }

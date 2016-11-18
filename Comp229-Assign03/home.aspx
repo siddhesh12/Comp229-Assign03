@@ -24,12 +24,12 @@
             <br />
             <br />
             Student List</label>
-        &nbsp;<asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False"  Height="156px" HorizontalAlign="Center" Width="276px">
+        &nbsp;<asp:GridView ID="GridView1"  autogenerateselectbutton="True" selectedindex="1" onselectedindexchanged="GridView1_SelectedIndexChanged"  runat="server" AutoGenerateColumns="False"  Height="156px" HorizontalAlign="Center" Width="276px" >
             <Columns>
                 <asp:BoundField DataField="StudentID" HeaderText="StudentID" InsertVisible="False" ReadOnly="True"  />
                 <asp:BoundField DataField="LastName" HeaderText="LastName" />
                 <asp:BoundField DataField="FirstMidName" HeaderText="FirstMidName" />
-                <as
+
             </Columns>
         </asp:GridView>
         <br />
