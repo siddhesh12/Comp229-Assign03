@@ -1,11 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Global.Master" AutoEventWireup="true" CodeBehind="Course.aspx.cs" Inherits="Comp229_Assign03.Course" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <style type="text/css">
-        #form1 {
-            text-align: center;
-        }
-    </style>
-</asp:Content>
+
+   
+
 <asp:Content ID="Content2" ContentPlaceHolderID="contentplaceholder1" runat="server">
     <form id="form1" runat="server">
             <asp:Label ID="Label1" runat="server" Text="Courses"></asp:Label>

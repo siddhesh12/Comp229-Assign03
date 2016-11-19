@@ -37,7 +37,7 @@ namespace Comp229_Assign03
             {
                 connection.Open();
                 comm.ExecuteNonQuery();
-               
+                Response.Redirect("home.aspx");
             }
             catch (Exception ex)
             {

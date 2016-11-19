@@ -3069,7 +3069,7 @@ fieldset[disabled] a.btn {
   color: #333;
   background-color: #fff;
   border-color: #ccc;
-    width: 82px;
+    width: 140px;
 }
 .btn-default:focus,
 .btn-default.focus {
@@ -4972,11 +4972,13 @@ a.badge:focus {
 .jumbotron {
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-bottom: 20px;
+  
   color: inherit;
   background-color: #E37638;
     height: 211px;
-    width: 1001px;
+width:100%;
+    margin-left:0%;
+    margin-right:0%;
 }
 .jumbotron h1,
 .jumbotron .h1 {
