@@ -11,15 +11,13 @@
 </head>
 <body>
 <div class="jumbotron">
-  <h1>T.I.T </h1><p>Toronto Institute of Technology<br/>Toronto, ON, M1J 2N2</p>
+  <h1>T.I.T </h1>
+    <p>Toronto Institute of Technology<br/>Toronto, ON, M1J 2N2</p>
 </div>
-
-   
  <div class="navbar-collapse collapse">
                   <ul class="nav navbar-nav">
-                      <li><a runat="server" href="~/">Home</a></li>
-                      <li><a runat="server" href="~/About">About</a></li>
-                      <li><a runat="server" href="~/Contact">Contact</a></li>
+                      <li><a runat="server" href="home.aspx">Home</a></li>
+                      <li><a runat="server" href="Course.aspx">Course</a></li>
                   </ul>
               </div>
     <div class="container">

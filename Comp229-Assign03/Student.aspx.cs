@@ -45,7 +45,7 @@ namespace Comp229_Assign03
         }
 
         
-        protected void delete()
+        protected void deleteStudent()
         {
             SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["Comp229Assign03ConnectionString"].ToString());
             SqlCommand commEnrollment = new SqlCommand("delete from Enrollments WHERE StudentID=@StudentID", connection);
@@ -130,8 +130,6 @@ namespace Comp229_Assign03
             
             string  lastName = ((TextBox)(row.Cells[2].Controls[0])).Text;
             string firstMidName = ((TextBox)(row.Cells[3].Controls[0])).Text;
-            string courseTitle = row.Cells[5].Text;
-            string courseCredits = row.Cells[6].Text;
             updateStudent(lastName, firstMidName);
 
             GridView1.EditIndex = -1;
@@ -157,7 +155,7 @@ namespace Comp229_Assign03
         }
         protected void student_GridView_RowDeleting (object sender, GridViewDeleteEventArgs e)
         {
-            delete();
+            deleteStudent();
         }
     }
 }
