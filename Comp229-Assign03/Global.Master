@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Global.master.cs" Inherits="Comp229_Assign03.Global1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="content/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <title></title>
+   <link rel="stylesheet" type="text/css" href="Content/css/MasterStyle.css"/>
+    <style type="text/css">
+        .auto-style1 {
+            width: 964px;
+            background-color: #C0C0C0;
+        }
+        .auto-style2 {
+            width: 482px;
+        }
+    </style>
+</head>
+<body>
+<div class="jumbotron">
+  <h1>T.I.T </h1>
+    <p>Toronto Institute of Technology<br/>Toronto, ON, M1J 2N2</p>
+</div>
+ 
+     <table class="auto-style1" style="width: 100%">
+         <tr>
+             <td class="auto-style2"><a href="home.aspx" style="color: #000000; text-decoration: none">Home</a></td>
+             <td class="auto-style2"><a href="Course.aspx" style="color: #000000; text-decoration: none">Course</a></td>
+         </tr>
+     </table>
+   
+    <br/>
+    <div class="container">
+        <asp:contentplaceholder id="contentplaceholder1" runat="server">
+
+        </asp:contentplaceholder>
+    </div>
+</body>
+</html>
